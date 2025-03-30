@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>禹白告番剧计划</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+        }
+        
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        h1 {
+            font-size: 28px;
+            color: #41ac52;
+            margin-bottom: 10px;
+        }
+        
+        .showcase {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .item {
+            display: flex;
+            width: 100%;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .item-image {
+            flex: 0 0 200px;
+            height: 280px;
+            overflow: hidden;
+        }
+        
+        .item-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .item:hover .item-image img {
+            transform: scale(1.05);
+        }
+        
+        .item-info {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .item-header {
+            margin-bottom: 15px;
+        }
+        
+        .item-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .item-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .rating-stars {
+            color: #ffac2d;
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        
+        .rating-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffac2d;
+        }
+        
+        .item-description {
+            color: #666;
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+        
+        .item-meta {
+            display: flex;
+            color: #999;
+            font-size: 14px;
+        }
+        
+        .item-meta span {
+            margin-right: 15px;
+        }
+        
+        .item-meta i {
+            margin-right: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .item {
+                flex-direction: column;
+            }
+            
+            .item-image {
+                flex: 0 0 200px;
+                height: auto;
+            }
+            
+            .item-image img {
+                height: 280px;
+                object-fit: cover;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header >
+            <h1>禹白告番剧计划</h1>
+            <p>全为主观评分</p>
+            <p>希望你喜欢，若有疑问请发邮件至Vesselsfeedback@sina.cn</p>
+        </header>
+        
+        <div class="showcase">
+            <!-- 孤独摇滚 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img3.doubanio.com/view/photo/l/public/p2880363573.jpg" alt="孤独摇滚！ ぼっち・ざ・ろっく！">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss43164">孤独摇滚！ ぼっち・ざ・ろっく！</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★★</div>
+                            <div class="rating-value">5</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        初看不知番中意，再看已是大波奇
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2022-10-08</span>
+                        <span><i>⏱️</i> 12集，一集约25分钟</span>
+                        <span><i>🎬</i> 动画 / 音乐</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 大理寺日志 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img1.doubanio.com/view/photo/l/public/p2595198329.jpg" alt="大理寺日志">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss32321">大理寺日志</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        这动漫，中，中，中
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2020-04-10</span>
+                        <span><i>⏱️</i> 两季，一共24集</span>
+                        <span><i>🎬</i> 国产动漫 / 漫改</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 刺客伍六七 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img2.doubanio.com/view/photo/l/public/p2522418171.jpg" alt="刺客五六七">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2> <class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss6360">刺客伍六七</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4.5（为第一部评分）</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        老板，一碗炒河粉，一杯冻奶茶，少冰（第一部非常优秀，但是越往后问题越多）
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2018-04-25（第一部）</span>
+                        <span><i>⏱️</i> 13集（第一部）</span>
+                        <span><i>🎬</i> 国产动漫 / 漫改</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 天使降临到了我身边！ 私に天使が舞い降りた！ -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img2.doubanio.com/view/photo/l/public/p2545778251.jpg" alt="天使降临到了我身边！ 私に天使が舞い降りた！">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss26291">天使降临到了我身边！ 私に天使が舞い降りた！</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        喵内 Beng~
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2019-01-08</span>
+                        <span><i>⏱️</i> 12集，一集约25分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 甘城光辉游乐园 甘城ブリリアントパーク -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img1.doubanio.com/view/photo/l/public/p2916984209.jpg" alt="甘城光辉游乐园 甘城ブリリアントパーク">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss281">甘城光辉游乐园 甘城ブリリアントパーク</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">3.5</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        京阿尼中等的作品，但也看得我身体前倾
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2014-10-07</span>
+                        <span><i>⏱️</i> 13集，一集约23分钟</span>
+                        <span><i>🎬</i> 日本动画</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 日常 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img3.doubanio.com/view/photo/l/public/p2363142442.jpg" alt="日常">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss844">日常 日常</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★★</div>
+                            <div class="rating-value">5</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        京阿尼优秀的作品，我们所经历的每个平凡日常，也许就是连续发生的奇迹！
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2011-04-02</span>
+                        <span><i>⏱️</i> 26集，一集约25分钟</span>
+                        <span><i>🎬</i> 日本动画 / 漫改</span>
+                    </div>
+                </div>
+            </div>
+
+             <!-- 小林家的龙女仆 -->
+             <div class="item">
+                <div class="item-image">
+                    <img src="https://img1.doubanio.com/view/photo/l/public/p2436339010.jpg" alt="小林家的龙女仆 小林さんちのメイドラゴン">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss5800">小林家的龙女仆 小林さんちのメイドラゴン</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        京阿尼优秀的作品，小林：程序员✘，驯龙专家✔
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2017-01-11</span>
+                        <span><i>⏱️</i> 两季，共25集，一集约25分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 别当欧尼酱了 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img3.doubanio.com/view/photo/l/public/p2884738627.jpg" alt="别当欧尼酱了！ お兄ちゃんはおしまい！">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title">别当欧尼酱了！ お兄ちゃんはおしまい！</h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        量子状态下的哥哥姐姐
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2023-01-05</span>
+                        <span><i>⏱️</i> 共12集，一集约25分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 中二病也要谈恋爱 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img9.doubanio.com/view/photo/l/public/p2916890574.jpg" alt="中二病也要谈恋爱">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss4340">中二病也要谈恋爱！ 中二病でも恋がしたい！</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">3.5</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        京阿尼的中等作品，今晚的风甚是喧嚣
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2012-10-03</span>
+                        <span><i>⏱️</i> 共2季，共25集，一集约25分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画 / 恋爱</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 在下坂本，有何贵干？ 坂本ですが？ -->
+             <div class="item">
+                <div class="item-image">
+                    <img src="https://img1.doubanio.com/view/photo/l/public/p2329821809.jpg" alt="在下坂本，有何贵干？ 坂本ですが？">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss3450">在下坂本，有何贵干？ 坂本ですが？</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        又名：逼哥的自我修养。Cool——Cooler——Coolist
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2016-04-08</span>
+                        <span><i>⏱️</i> 共12集，一集约25分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 那年那兔那些事 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://i0.hdslb.com/bfs/bangumi/e3366e021abb45f74bf99c1e140eee45605ec52a.jpg@282w_375h.webp" alt="那年那兔那些事">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss1689">那年那兔那些事</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★★</div>
+                            <div class="rating-value">5</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        亲~大国梦~
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2016-04-08</span>
+                        <span><i>⏱️</i> 共8季，共很多集，一集约6分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画 / 历史</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- 十万个冷笑话 -->
+             <div class="item">
+                <div class="item-image">
+                    <img src="https://img9.doubanio.com/view/photo/l/public/p2196724075.jpg" alt="十万个冷笑话">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss660">十万个冷笑话</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★</div>
+                            <div class="rating-value">3</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        分潇潇兮易水寒，十冷自挂东南枝
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i>  2012-07-11</span>
+                        <span><i>⏱️</i> 共2季，共25集，一集约5分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 非人哉 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img9.doubanio.com/view/photo/l/public/p2533984745.jpg" alt="非人哉">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss24298">非人哉</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★</div>
+                            <div class="rating-value">3.5</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        神仙打工日常
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2018-03-29</span>
+                        <span><i>⏱️</i> 共2季，共144集，一集约12分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 镇魂街 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img3.doubanio.com/view/photo/l/public/p2244634192.jpg" alt="镇魂街">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss3863">镇魂街</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4（为第一部评分）</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        末将于禁，甘为曹家世代赴汤蹈火
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2017</span>
+                        <span><i>⏱️</i> 共4季，一集约20分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画 / 动作</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 干物妹·小埋 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img1.doubanio.com/view/photo/l/public/p2257335170.jpg" alt="干物妹！小埋 干物妹! うまるちゃん">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss2580">干物妹！小埋 干物妹! うまるちゃん</a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        我的妹妹，是一位干物妹
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2015-07-08</span>
+                        <span><i>⏱️</i> 共12集，一集约20分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 轻音少女 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img3.doubanio.com/view/photo/l/public/p2554041107.jpg" alt="轻音少女 けいおん! ">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss1172">轻音少女 けいおん! </a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4.5</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        京阿尼的优秀作品。K-ON
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2009-04-02</span>
+                        <span><i>⏱️</i> 共两季，共36集，一集约20分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画 / 音乐</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 某科学的超电磁炮 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img3.doubanio.com/view/photo/l/public/p2903518627.jpg" alt="某科学的超电磁炮 とある科学の超電磁砲 ">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss425">某科学的超电磁炮 とある科学の超電磁砲 </a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4.5</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        BI-LI-BI-LI
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2009-10-02</span>
+                        <span><i>⏱️</i> 共三季，一集约25分钟</span>
+                        <span><i>🎬</i> 喜剧 / 动画 / 动作</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 葬送的付莉莲 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img9.doubanio.com/view/photo/l/public/p2897218476.jpg" alt="葬送的芙莉莲 葬送のフリーレン ">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss46089">葬送的芙莉莲 葬送のフリーレン </a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★★</div>
+                            <div class="rating-value">5</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        老东西也是挺可爱的
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i> 2023-09-29</span>
+                        <span><i>⏱️</i> 共28集，一集约25分钟</span>
+                        <span><i>🎬</i> 喜剧 / 魔法 / 动作 </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 间谍过家家 -->
+            <div class="item">
+                <div class="item-image">
+                    <img src="https://img1.doubanio.com/view/photo/l/public/p2869306649.jpg" alt="间谍过家家 ">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss41410">间谍过家家 SPY×FAMILY </a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        孤儿院里天降爸，裁缝店中拐到妈，间谍杀手凑一家，天下都是我的瓜
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i>2022-04-09</span>
+                        <span><i>⏱️</i> 共两季，共37集，一集约25分钟</span>
+                        <span><i>🎬</i> 喜剧 / 漫改 </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 紫罗兰的永恒花园 -->
+             <div class="item">
+                <div class="item-image">
+                    <img src="https://img1.doubanio.com/view/photo/l/public/p2508746540.jpg" alt="紫罗兰永恒花园 ヴァイオレット・エヴァーガーデン ">
+                </div>
+                <div class="item-info">
+                    <div class="item-header">
+                        <h2 class="item-title"><a href="https://www.bilibili.com/bangumi/play/ss21542">紫罗兰永恒花园 ヴァイオレット・エヴァーガーデン </a></h2>
+                        <div class="item-rating">
+                            <div class="rating-stars">★★★★</div>
+                            <div class="rating-value">4</div>
+                        </div>
+                    </div>
+                    <div class="item-description">
+                        MVP：少佐的大眼珠子
+                    </div>
+                    <div class="item-meta">
+                        <span><i>📅</i>2018-01-10</span>
+                        <span><i>⏱️</i> 共13集，一集约25分钟</span>
+                        <span><i>🎬</i> 剧情 </span>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script>
+        // 可以添加一些交互功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const items = document.querySelectorAll('.item');
+            
+            // 随机排序展示项
+            function shuffleItems() {
+                const parent = items[0].parentNode;
+                const shuffled = Array.from(items).sort(() => Math.random() - 0.5);
+                shuffled.forEach(item => parent.appendChild(item));
+            }
+            
+            // 添加一个按钮来触发随机排序
+            const shuffleButton = document.createElement('button');
+            shuffleButton.textContent = '随机排序';
+            shuffleButton.style.display = 'block';
+            shuffleButton.style.margin = '20px auto';
+            shuffleButton.style.padding = '10px 20px';
+            shuffleButton.style.backgroundColor = '#41ac52';
+            shuffleButton.style.color = 'white';
+            shuffleButton.style.border = 'none';
+            shuffleButton.style.borderRadius = '4px';
+            shuffleButton.style.cursor = 'pointer';
+            
+            shuffleButton.addEventListener('click', shuffleItems);
+            
+            document.querySelector('.container').appendChild(shuffleButton);
+        });
+    </script>
+</body>
+</html>
